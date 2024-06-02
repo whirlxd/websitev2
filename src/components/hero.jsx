@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import "./realdoof.svg";
+
 const hero = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
