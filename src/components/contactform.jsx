@@ -36,7 +36,7 @@ const contactform = () => {
       });
     }
 
-    formData.append("access_key", process.env.FORM);
+    formData.append("access_key", import.meta.env.VITE_API_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
