@@ -370,7 +370,7 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt AI Models & Image Manipulation
               </div>
-              Life is actually gay
+              Learnt working with complex cnn models and image manipulation
             </div>
 
             <hr className="bg-accent" />
@@ -397,6 +397,10 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt Editing & UI/UX Design
               </div>
+              <p className="text-balanced">
+                Focused more on the design aspect of the projects and learnt how
+                to wireframe
+              </p>
             </div>
             <hr className="bg-primary" />
           </li>
@@ -421,6 +425,10 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt ReactJS & Other langs
               </div>
+              <p className=" text-ellipsis">
+                Started learning other programming languages and frameworks such
+                as react , python , c++ , lua etc..
+              </p>
             </div>
             <hr className="bg-accent" />
           </li>
@@ -445,6 +453,10 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt Javascript & Nodejs
               </div>
+              <p className=" text-clip">
+                First encounter with programming and started learning javascript
+                and node
+              </p>
             </div>
             <hr className="bg-primary" />
           </li>
@@ -488,54 +500,68 @@ const about = () => {
           <div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
             <div>
               <AnimationOnScroll animateIn="slideInLeft" animateOnce="true">
-                <Project />
+                <Project
+                  name="IMG to PDF"
+                  href="https://github.com/whirlxd/IMG-To-PDF "
+                  des="Lightweight Image to PDF converter"
+                  image="https://socialify.git.ci/whirlxd/IMG-To-PDF/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
+                />
               </AnimationOnScroll>
             </div>
             <div>
               <AnimationOnScroll animateIn="slideInDown" animateOnce="true">
-                <Project />
+                <Project
+                  name="Musico"
+                  href="https://github.com/whirlxd/musico "
+                  des="An open source all in one music bot"
+                  image="https://socialify.git.ci/whirlxd/Musico/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
+                />
               </AnimationOnScroll>
             </div>
             <div>
               <AnimationOnScroll animateIn="slideInRight" animateOnce="true">
-                <Project />
+                <Project
+                  name="Activity Bot"
+                  href="https://github.com/whirlxd/activities "
+                  des="Simple bot to utilize slash commands"
+                  image="https://socialify.git.ci/whirlxd/Activities/image?description=1&descriptionEditable=A%20discord%20bot%20for%20playing%20games%20and%20watching%20youtube%20&language=1&name=1&owner=1&theme=Light"
+                />
               </AnimationOnScroll>
             </div>
             <div>
               <AnimationOnScroll animateIn="slideInLeft" animateOnce="true">
-                <Project />
+                <Project
+                  name="Welcomer Bot"
+                  href="https://github.com/whirlxd/welcomer "
+                  des="Bot to welcome new members in a server"
+                  image="https://socialify.git.ci/whirlxd/Welcomer/image?description=1&descriptionEditable=%20An%20open%20source%20highly%20customizable%20and%20easy%20to%20use%20welcomer%20bot.&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
+                />
               </AnimationOnScroll>
             </div>
             <div>
               <AnimationOnScroll animateIn="slideInUp" animateOnce="true">
-                <Project />
+                <Project
+                  name="SpotifyDL"
+                  href="https://github.com/whirlxd/SpotifyDL "
+                  des="Program to convert spotify playlists to mp3"
+                  image="https://socialify.git.ci/whirlxd/SpotifyDL/image?description=1&descriptionEditable=%20a%20simple%20nodejs%20program%20to%20convert%20spotify%20playlists%20to%20mp3%20files&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
+                />
               </AnimationOnScroll>
             </div>
             <div>
               <AnimationOnScroll animateIn="slideInRight" animateOnce="true">
-                <Project />
+                <Project
+                  name="Text Editor"
+                  href="https://github.com/whirlxd/text-editor "
+                  des="Simple text editor with basic features"
+                  image="https://socialify.git.ci/whirlxd/Text-Editor/image?description=1&language=1&name=1&owner=1&theme=Light"
+                />
               </AnimationOnScroll>
             </div>
+            <br></br>
           </div>
         </div>
       </div>
-      {/* <div className="carousel carousel-center rounded-box">
-        <div className="carousel-item">
-          <Project className="text-center" />
-        </div>
-        <div className="divider lg:divider-horizontal"></div>
-        <div className="carousel-item">
-          <Project className="text-center" />
-        </div>
-        <div className="divider lg:divider-horizontal"></div>
-        <div className="carousel-item">
-          <Project className="text-center" />
-        </div>
-        <div className="divider lg:divider-horizontal"></div>
-        <div className="carousel-item">
-          <Project className="text-center" />
-        </div> */}
-      {/* </div> */}
     </div>
   );
 };
