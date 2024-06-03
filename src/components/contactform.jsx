@@ -2,13 +2,26 @@ import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import axios from "axios";
 const contactform = () => {
   const [result, setResult] = React.useState("");
+  const [ip, setIP] = React.useState("");
+  const getData = async () => {
+    const res = await axios.get("https://api.ipify.org/?format=json");
+    console.log(res.data);
+    setIP(res.data.ip);
+  };
+
+  React.useEffect(() => {
+    //passing getData method to the lifecycle method
+    getData();
+  }, []);
 
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("");
     const formData = new FormData(event.target);
+    console.log(ip);
 
     if (!formData.get("name")) {
       return Swal.fire({
@@ -133,7 +146,15 @@ const contactform = () => {
                       />
                     </AnimationOnScroll>
                   </div>
-
+                  <input
+                    className=""
+                    placeholder={ip}
+                    value={ip}
+                    type="text"
+                    id="text"
+                    name="ip"
+                    hidden="true"
+                  />
                   <div>
                     <label className="sr-only" htmlFor="phone">
                       Phone

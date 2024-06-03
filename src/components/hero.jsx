@@ -26,6 +26,7 @@ const hero = () => {
 
             <AnimationOnScroll animateIn="backInUp">
               <a
+                target="_blank"
                 href="https://x.com/whirlxd"
                 className="btn btn-circle  btn-outline btn-secondary"
               >
@@ -61,6 +62,7 @@ const hero = () => {
               </a>
 
               <a
+                target="_blank"
                 href="https://instagram.com/whirlxd"
                 className="btn btn-circle ml-4 btn-outline btn-secondary"
               >
@@ -96,6 +98,7 @@ const hero = () => {
               </a>
 
               <a
+                target="_blank"
                 href="https://github.com/whirlxd"
                 className="btn btn-circle ml-4 btn-outline btn-secondary"
               >

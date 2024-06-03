@@ -6,35 +6,44 @@
 
 <h2>🚀 Demo</h2>
 
-[whirlxd.me](whirlxd.me)
-
-<h2>Project Screenshots:</h2>
-
-<img src="" alt="project-screenshot" width="400" height="400/">
-
-<img src="" alt="project-screenshot" width="400" height="400/">
+[whirlxd.netlify.app](whirlxd.netlify.app)
 
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
 
-- Blah B
-- B Blah
+- Lightweight & Fast
+- Theme Switcher
+- Completely React & Tailwind Based
+- Contact form [w/iplogger for security]
+- SEO Optimized
 
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Install The repo</p>
 
-<p>2. install dependancies</p>
+<p>2. Install dependencies</p>
 
 ```
 npm install
 ```
 
-<p>3. build</p>
+<p>3. Build</p>
 
 ```
-npm run dul
+npm run build
+```
+
+<p>4. Preview</p>
+
+```
+npm run preview
+```
+
+<p>5. Form API KEY</p>
+
+```
+VITE_API_KEY= 'YOUR_API_KEY' (optional)
 ```
 
 <h2>💻 Built with</h2>
@@ -51,4 +60,4 @@ This project is licensed under the GNU 3
 
 <h2>💖Like my work?</h2>
 
-Please<p>link</p>
+Please consider giving this repo a ⭐ if it helped you and following my socials

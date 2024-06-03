@@ -14,7 +14,7 @@ const project = (props) => {
           <br></br>
 
           <div className="card-actions">
-            <a href={props.href} className="btn btn-primary">
+            <a target="_blank" href={props.href} className="btn btn-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"

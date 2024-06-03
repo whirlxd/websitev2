@@ -7,7 +7,7 @@ import Headroom from "react-headroom";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "animate.css/animate.compat.css";
 import "./App.css";
-
+import { Scrollbar } from "react-scrollbars-custom";
 function App() {
   return (
     <div>
