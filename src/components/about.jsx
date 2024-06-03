@@ -42,8 +42,8 @@ const about = () => {
             </h2>
           </AnimationOnScroll>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Here are some of my skills and technologies I use to build web
-            applications. and my profeciency in them.
+            Some of the skills i'v acquired over the years and my proficiency
+            with them
           </p>
         </div>
 

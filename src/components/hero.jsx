@@ -1,5 +1,6 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import Typewriter from "typewriter-effect";
 
 const hero = () => {
   return (
@@ -8,7 +9,10 @@ const hero = () => {
         <AnimationOnScroll animateIn="zoomInDown">
           <div className="avatar">
             <div className="w-32 mask mask-squircle">
-              <img src="https://avatars.githubusercontent.com/u/71062861?v=4" />
+              <img
+                src="https://avatars.githubusercontent.com/u/71062861?v=4"
+                alt="my image"
+              />
             </div>
           </div>
         </AnimationOnScroll>
@@ -19,14 +23,28 @@ const hero = () => {
             </AnimationOnScroll>
             <AnimationOnScroll animateIn="lightSpeedInRight">
               <p className="py-6 text-pretty">
-                I am a full stack developer and a budding entrepreneur who
-                enjoys problem solving and dealing with philosophical questions.
+                <Typewriter
+                  options={{
+                    cursor: "_",
+                  }}
+                  onInit={(typewriter) => {
+                    typewriter
+
+                      .changeDelay(16)
+                      .typeString(
+                        " I am a full stack developer and a budding entrepreneur who enjoys problem solving and dealing with philosophical questions"
+                      )
+
+                      .start();
+                  }}
+                />
               </p>
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="backInUp">
               <a
                 target="_blank"
+                aria-label="twitter"
                 href="https://x.com/whirlxd"
                 className="btn btn-circle  btn-outline btn-secondary"
               >
@@ -63,6 +81,7 @@ const hero = () => {
 
               <a
                 target="_blank"
+                aria-label="instagram"
                 href="https://instagram.com/whirlxd"
                 className="btn btn-circle ml-4 btn-outline btn-secondary"
               >
@@ -99,6 +118,7 @@ const hero = () => {
 
               <a
                 target="_blank"
+                aria-label="github"
                 href="https://github.com/whirlxd"
                 className="btn btn-circle ml-4 btn-outline btn-secondary"
               >
