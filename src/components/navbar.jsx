@@ -49,7 +49,7 @@ const navbar = () => {
               <a href="/about">About</a>
             </li>
             <li>
-              <a target="_blank" href="https://imgtopdf.netlify.app">
+              <a target="_blank" href="https://itp.whirlxd.xyz">
                 iTp
               </a>
             </li>
