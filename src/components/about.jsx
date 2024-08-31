@@ -496,7 +496,7 @@ const about = () => {
 
       <div className="hero ">
         <div className="text-center align-center ">
-          <div className="grid grid-cols-1 gap-4 text-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-6">
+          <div className="grid grid-cols-1 gap-4 text-center md:grid-cols-2 lg:grid-cols-3 ">
             <div>
               <div animateIn="slideInLeft" animateOnce="true">
                 <Project
