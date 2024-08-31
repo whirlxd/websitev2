@@ -6,12 +6,12 @@ const about = () => {
   return (
     <div className="bg-base-200">
       {/* <div className="hero bg-base-200 ">
-        <h1 className="text-5xl font-bold pl-2 pt-6 underline ">About Me</h1>
+        <h1 className="pt-6 pl-2 text-5xl font-bold underline ">About Me</h1>
       </div>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="min-h-screen hero bg-base-200">
         <div className="hero-content">
           <div className="max-w-md">
-            <div className="grid grid-rows-2 grid-flow  gap-4">
+            <div className="grid grid-rows-2 gap-4 grid-flow">
               <div>01</div>
               <div>02</div>
               <div>03</div>
@@ -29,15 +29,15 @@ const about = () => {
 
       <section
         id="features"
-        className="container mx-auto px-4 space-y-6 bg-base-200 py-8 md:py-12 lg:py-20"
+        className="container px-4 py-8 mx-auto space-y-6 bg-base-200 md:py-12 lg:py-20"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <AnimationOnScroll
-            animateIn="zoomInDown"
+            animateIn="fadeInDown"
             animateOnce="true"
-            offset={100}
+            offset={0}
           >
-            <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl underline ">
+            <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline ">
               My Skills
             </h2>
           </AnimationOnScroll>
@@ -48,14 +48,14 @@ const about = () => {
         </div>
 
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-          <AnimationOnScroll animateIn="rotateInDownLeft" animateOnce="true">
+          <div animateIn="zoomIn" animateOnce="true">
             <div
-              href="https://whirlxd.mw"
-              className="relative overflow-hidden rounded-lg  bg-base-200 select-none  hover:font-extrabold p-2"
+              href="https://whirlxd.xyz"
+              className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold"
             >
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
-                  className="radial-progress text-xl font-bold "
+                  className="text-xl font-bold radial-progress "
                   style={{ "--value": 75 }}
                   role="progressbar"
                 >
@@ -90,19 +90,19 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 extrabold text-xl ">React</h1>
+                <h1 className="pt-2 text-xl extrabold ">React</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
                 <p className="text-sm text-muted-foreground"></p>
               </div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="rotateIn" animateOnce="true">
-            <div className="relative overflow-hidden rounded-lg  bg-base-200 select-none hover:font-extrabold hover:shadow-teal-200 p-2">
+          </div>
+          <div animateIn="rotateIn" animateOnce="true">
+            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
-                  className="radial-progress text-xl font-bold "
+                  className="text-xl font-bold radial-progress "
                   style={{ "--value": 90 }}
                   role="progressbar"
                 >
@@ -137,19 +137,19 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 extrabold text-xl ">Node</h1>
+                <h1 className="pt-2 text-xl extrabold ">Node</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
                 <p className="text-sm text-muted-foreground"></p>
               </div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="rotateInDownRight" animateOnce="true">
-            <div className="relative overflow-hidden rounded-lg  bg-base-200 select-none hover:font-extrabold hover:shadow-teal-200 p-2">
+          </div>
+          <div animateIn="rotateInDownRight" animateOnce="true">
+            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
-                  className="radial-progress text-xl font-bold "
+                  className="text-xl font-bold radial-progress "
                   style={{ "--value": 85 }}
                   role="progressbar"
                 >
@@ -184,19 +184,19 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 extrabold text-xl ">Python</h1>
+                <h1 className="pt-2 text-xl extrabold ">Python</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
                 <p className="text-sm text-muted-foreground"></p>
               </div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="rotateInUpLeft" animateOnce="true">
-            <div className="relative overflow-hidden rounded-lg  bg-base-200 select-none hover:font-extrabold hover:shadow-teal-200 p-2">
+          </div>
+          <div animateIn="rotateInUpLeft" animateOnce="true">
+            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
-                  className="radial-progress text-xl font-bold "
+                  className="text-xl font-bold radial-progress "
                   style={{ "--value": 50 }}
                   role="progressbar"
                 >
@@ -231,19 +231,19 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 extrabold text-xl ">DBMS</h1>
+                <h1 className="pt-2 text-xl extrabold ">DBMS</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
                 <p className="text-sm text-muted-foreground"></p>
               </div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="rotateIn" animateOnce="true">
-            <div className="relative overflow-hidden rounded-lg  bg-base-200 select-none hover:font-extrabold hover:shadow-teal-200 p-2">
+          </div>
+          <div animateIn="rotateIn" animateOnce="true">
+            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
-                  className="radial-progress text-xl font-bold "
+                  className="text-xl font-bold radial-progress "
                   style={{ "--value": 65 }}
                   role="progressbar"
                 >
@@ -278,19 +278,19 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 extrabold text-xl ">Editing</h1>
+                <h1 className="pt-2 text-xl extrabold ">Editing</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
                 <p className="text-sm text-muted-foreground"></p>
               </div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="rotateInUpRight" animateOnce="true">
-            <div className="relative overflow-hidden rounded-lg  bg-base-200 select-none hover:font-extrabold hover:shadow-teal-200 p-2">
+          </div>
+          <div animateIn="rotateInUpRight" animateOnce="true">
+            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
-                  className="radial-progress text-xl font-bold "
+                  className="text-xl font-bold radial-progress "
                   style={{ "--value": 80 }}
                   role="progressbar"
                 >
@@ -326,7 +326,7 @@ const about = () => {
                   </svg>
                 </div>
 
-                <h1 className="pt-2 extrabold text-xl ">App Dev</h1>
+                <h1 className="pt-2 text-xl extrabold ">App Dev</h1>
               </div>
 
               <div className="space-y-2">
@@ -334,21 +334,21 @@ const about = () => {
                 <p className="text-sm text-muted-foreground"></p>
               </div>
             </div>
-          </AnimationOnScroll>
+          </div>
         </div>
       </section>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
-      <AnimationOnScroll animateIn="zoomInDown" animateOnce="true">
-        <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-center underline">
+      <AnimationOnScroll animateIn="fadeInDown" animateOnce="true">
+        <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
           My Road
         </h2>
       </AnimationOnScroll>
       <br></br>
       <br></br>
-      <AnimationOnScroll animateIn="backInUp" animateOnce="true">
+      <div animateIn="backInUp" animateOnce="true">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical bg-base-200">
           <li>
             <div className="timeline-middle">
@@ -356,7 +356,7 @@ const about = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="w-5 h-5"
               >
                 <path
                   fillRule="evenodd"
@@ -365,7 +365,7 @@ const about = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-start md:text-end mb-10">
+            <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2024</time>
               <div className="text-lg font-black">
                 Learnt AI Models & Image Manipulation
@@ -383,7 +383,7 @@ const about = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="w-5 h-5"
               >
                 <path
                   fillRule="evenodd"
@@ -392,7 +392,7 @@ const about = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-end mb-10">
+            <div className="mb-10 timeline-end">
               <time className="font-mono italic">2023</time>
               <div className="text-lg font-black">
                 Learnt Editing & UI/UX Design
@@ -411,7 +411,7 @@ const about = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="w-5 h-5"
               >
                 <path
                   fillRule="evenodd"
@@ -420,7 +420,7 @@ const about = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-start md:text-end mb-10">
+            <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2022</time>
               <div className="text-lg font-black">
                 Learnt ReactJS & Other langs
@@ -439,7 +439,7 @@ const about = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="w-5 h-5"
               >
                 <path
                   fillRule="evenodd"
@@ -448,7 +448,7 @@ const about = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-end mb-10">
+            <div className="mb-10 timeline-end">
               <time className="font-mono italic">2021</time>
               <div className="text-lg font-black">
                 Learnt Javascript & Nodejs
@@ -467,7 +467,7 @@ const about = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="w-5 h-5"
               >
                 <path
                   fillRule="evenodd"
@@ -476,7 +476,7 @@ const about = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-start md:text-end mb-10">
+            <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2019 & 2020</time>
               <div className="text-lg font-black">
                 Learnt Logical process flows and game dev
@@ -484,11 +484,11 @@ const about = () => {
             </div>
           </li>
         </ul>
-      </AnimationOnScroll>
+      </div>
       <br></br>
       <br></br>
-      <AnimationOnScroll animateIn="zoomIn" animateOnce="true">
-        <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-center bg-base-200 underline">
+      <AnimationOnScroll animateIn="fadeInDown" animateOnce="true">
+        <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
           My Projects
         </h2>
       </AnimationOnScroll>
@@ -496,67 +496,67 @@ const about = () => {
       <br></br>
 
       <div className="hero ">
-        <div className="align-center text-center ">
+        <div className="text-center align-center ">
           <div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
             <div>
-              <AnimationOnScroll animateIn="slideInLeft" animateOnce="true">
+              <div animateIn="slideInLeft" animateOnce="true">
                 <Project
                   name="IMG to PDF"
                   href="https://github.com/whirlxd/IMG-To-PDF "
                   des="Lightweight Image to PDF converter"
                   image="https://socialify.git.ci/whirlxd/IMG-To-PDF/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
-              </AnimationOnScroll>
+              </div>
             </div>
             <div>
-              <AnimationOnScroll animateIn="slideInDown" animateOnce="true">
+              <div animateIn="slideInDown" animateOnce="true">
                 <Project
                   name="Musico"
                   href="https://github.com/whirlxd/musico "
                   des="An open source all in one music bot"
                   image="https://socialify.git.ci/whirlxd/Musico/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
-              </AnimationOnScroll>
+              </div>
             </div>
             <div>
-              <AnimationOnScroll animateIn="slideInRight" animateOnce="true">
+              <div animateIn="slideInRight" animateOnce="true">
                 <Project
                   name="Activity Bot"
                   href="https://github.com/whirlxd/activities "
                   des="Simple bot to utilize slash commands"
                   image="https://socialify.git.ci/whirlxd/Activities/image?description=1&descriptionEditable=A%20discord%20bot%20for%20playing%20games%20and%20watching%20youtube%20&language=1&name=1&owner=1&theme=Light"
                 />
-              </AnimationOnScroll>
+              </div>
             </div>
             <div>
-              <AnimationOnScroll animateIn="slideInLeft" animateOnce="true">
+              <div animateIn="slideInLeft" animateOnce="true">
                 <Project
                   name="Welcomer Bot"
                   href="https://github.com/whirlxd/welcomer "
                   des="Bot to welcome new members in a server"
                   image="https://socialify.git.ci/whirlxd/Welcomer/image?description=1&descriptionEditable=%20An%20open%20source%20highly%20customizable%20and%20easy%20to%20use%20welcomer%20bot.&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
-              </AnimationOnScroll>
+              </div>
             </div>
             <div>
-              <AnimationOnScroll animateIn="slideInUp" animateOnce="true">
+              <div animateIn="slideInUp" animateOnce="true">
                 <Project
                   name="SpotifyDL"
                   href="https://github.com/whirlxd/SpotifyDL "
-                  des="Program to convert spotify playlists to mp3"
+                  des="Convert spotify playlists to mp3 files"
                   image="https://socialify.git.ci/whirlxd/SpotifyDL/image?description=1&descriptionEditable=%20a%20simple%20nodejs%20program%20to%20convert%20spotify%20playlists%20to%20mp3%20files&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
-              </AnimationOnScroll>
+              </div>
             </div>
             <div>
-              <AnimationOnScroll animateIn="slideInRight" animateOnce="true">
+              <div animateIn="slideInRight" animateOnce="true">
                 <Project
                   name="Text Editor"
                   href="https://github.com/whirlxd/text-editor "
                   des="Simple text editor with basic features"
                   image="https://socialify.git.ci/whirlxd/Text-Editor/image?description=1&language=1&name=1&owner=1&theme=Light"
                 />
-              </AnimationOnScroll>
+              </div>
             </div>
             <br></br>
           </div>

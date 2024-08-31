@@ -85,7 +85,7 @@ const contactform = () => {
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:col-span-2 lg:py-12">
               <AnimationOnScroll animateOnce="true" animateIn="fadeInDown">
-                <h2 className="special underline-offset-2 font-black text-7xl leading-[1.1] sm:text-3xl md:text-6xl underline">
+                <h2 className="special underline-offset-2 font-black text-4xl md:text-6xl lg:text-7xl leading-[1.1]   underline">
                   Contact
                 </h2>
               </AnimationOnScroll>
@@ -191,7 +191,7 @@ const contactform = () => {
                 <div className="mt-4">
                   <button
                     type="submit"
-                    className="inline-block w-full px-5 py-3 font-bold text-black rounded-lg bg-primary sm:w-auto"
+                    className="inline-block w-full px-5 py-3 font-bold text-black transition duration-150 ease-in-out rounded-lg bg-primary hover:bg-opacity-75"
                   >
                     Send Enquiry
                   </button>
