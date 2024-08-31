@@ -80,33 +80,29 @@ const contactform = () => {
   };
   return (
     <div className="bg-base-200">
-      <section className="bg-base-200 min-h-screen">
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="min-h-screen bg-base-200">
+        <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:col-span-2 lg:py-12">
-              <AnimationOnScroll animateOnce="true" animateIn="zoomInDown">
-                <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl underline">
+              <AnimationOnScroll animateOnce="true" animateIn="fadeInDown">
+                <h2 className="special underline-offset-2 font-black text-7xl leading-[1.1] sm:text-3xl md:text-6xl underline">
                   Contact
                 </h2>
               </AnimationOnScroll>
               <br></br> <br></br>
-              <AnimationOnScroll animateOnce="true" animateIn="zoomInLeft">
-                <p className="max-w-xl text-lg">
-                  Fill the form to reach out to me professionally. I will get
-                  back to you as soon as possible.
-                </p>
-              </AnimationOnScroll>
+              <p className="max-w-xl text-lg">
+                Fill the form to reach out to me professionally. I will get back
+                to you as soon as possible.
+              </p>
               <div className="mt-8">
-                <AnimationOnScroll animateOnce="true" animateIn="zoomInUp">
-                  <p className="max-w-xl text-lg">
-                    In the meantime feel free to check out my social media
-                    profiles.
-                  </p>
-                </AnimationOnScroll>
+                <p className="max-w-xl text-lg">
+                  In the meantime feel free to check out my social media
+                  profiles.
+                </p>
               </div>
             </div>
 
-            <div className="rounded-lg bg-neutral p-8 shadow-lg lg:col-span-3 lg:p-12">
+            <div className="p-8 rounded-lg shadow-lg bg-neutral lg:col-span-3 lg:p-12">
               <form className="space-y-4" method="POST" onSubmit={onSubmit}>
                 <input
                   type="hidden"
@@ -119,7 +115,7 @@ const contactform = () => {
                   </label>
                   <AnimationOnScroll animateOnce="true" animateIn="fadeInDown">
                     <input
-                      className="textarea textarea-secondary w-full rounded-lg  p-3 text-sm"
+                      className="w-full p-3 text-sm rounded-lg textarea textarea-primary"
                       placeholder="Name"
                       type="text"
                       id="name"
@@ -138,7 +134,7 @@ const contactform = () => {
                       animateIn="fadeInLeft"
                     >
                       <input
-                        className="textarea textarea-secondary w-full rounded-lg  p-3 text-sm"
+                        className="w-full p-3 text-sm rounded-lg textarea textarea-accent"
                         placeholder="Email address"
                         type="email"
                         id="email"
@@ -164,7 +160,7 @@ const contactform = () => {
                       animateIn="fadeInRight"
                     >
                       <input
-                        className="textarea textarea-secondary w-full rounded-lg  p-3 text-sm"
+                        className="w-full p-3 text-sm rounded-lg textarea textarea-primary"
                         placeholder="Phone Number"
                         type="tel"
                         id="phone"
@@ -178,15 +174,14 @@ const contactform = () => {
                   <label className="sr-only" htmlFor="message">
                     Message
                   </label>
-                  <AnimationOnScroll animateOnce="true" animateIn="fadeInUp">
-                    <textarea
-                      className=" textarea textarea-accent w-full rounded-lg  p-3 text-sm "
-                      placeholder="Message"
-                      rows="8"
-                      id="message"
-                      name="message"
-                    ></textarea>
-                  </AnimationOnScroll>
+
+                  <textarea
+                    className="w-full p-3 text-sm rounded-lg textarea textarea-accent"
+                    placeholder="Message"
+                    rows="8"
+                    id="message"
+                    name="message"
+                  ></textarea>
                 </div>
                 <input
                   type="hidden"
@@ -194,18 +189,12 @@ const contactform = () => {
                   style={{ display: "none" }}
                 ></input>
                 <div className="mt-4">
-                  <AnimationOnScroll
-                    animateOnce="true"
-                    animateIn="fadeInUpBig"
-                    offset={90}
+                  <button
+                    type="submit"
+                    className="inline-block w-full px-5 py-3 font-bold text-black rounded-lg bg-primary sm:w-auto"
                   >
-                    <button
-                      type="submit"
-                      className="inline-block w-full rounded-lg bg-primary px-5 py-3 font-medium text-white sm:w-auto"
-                    >
-                      Send Enquiry
-                    </button>
-                  </AnimationOnScroll>
+                    Send Enquiry
+                  </button>
                 </div>
               </form>
               <span>{result}</span>

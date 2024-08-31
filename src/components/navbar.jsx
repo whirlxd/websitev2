@@ -9,9 +9,12 @@ const navbar = () => {
   }, [isdark]);
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-200">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl" href="/">
+          <a
+            className="ml-2 text-2xl underline special cursor-crosshair "
+            href="/"
+          >
             Whirl
           </a>
         </div>
@@ -22,12 +25,12 @@ const navbar = () => {
             className="theme-controller"
             value="night"
             checked={isdark}
-            onChange={() => setIsdark(!isdark)}
+            onChange={() => alert("The Website is under construction")}
           />
 
           {/* sun icon */}
           <svg
-            className="swap-off fill-current w-6 h-6"
+            className="w-6 h-6 fill-current swap-off"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -36,7 +39,7 @@ const navbar = () => {
 
           {/* moon icon */}
           <svg
-            className="swap-on fill-current w-6 h-6"
+            className="w-6 h-6 fill-current swap-on"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -44,7 +47,7 @@ const navbar = () => {
           </svg>
         </label>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="px-1 menu menu-horizontal">
             <li>
               <a href="/about">About</a>
             </li>
@@ -56,7 +59,7 @@ const navbar = () => {
             <li>
               <details>
                 <summary>Contact</summary>
-                <ul className="p-2 bg-base-100 rounded-t-none">
+                <ul className="p-2 rounded-t-none bg-base-100">
                   <li>
                     <a href="/contact">Message</a>
                   </li>

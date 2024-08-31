@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[whirlxd.netlify.app](whirlxd.netlify.app)
+[whirlxd.xyz](https://whirlxd.xyz)
 
 <h2>🧐 Features</h2>
 

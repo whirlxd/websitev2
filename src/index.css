@@ -16,3 +16,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.special {
+  font-family: "Nosifer", Times, serif;
+}
+h,
+body {
+  font-family: "inter-variable", sans-serif;
+  font-variation-settings: "wght" 400, "slnt" 0;
+}

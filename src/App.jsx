@@ -5,12 +5,14 @@ import Contactform from "./components/contactform";
 import Errorpage from "./components/error";
 import RedirectToGoogleDrive from "./components/pptHistory";
 import Headroom from "react-headroom";
+import Header from "./components/header";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "animate.css/animate.compat.css";
 import "./App.css";
 import { Scrollbar } from "react-scrollbars-custom";
 function App() {
-  const drivelink = "https://drive.google.com/drive/folders/1C1azwQtYCyRwtwCSk6w0QGuW5yL6iCty?usp=sharing"
+  const drivelink =
+    "https://drive.google.com/drive/folders/1C1azwQtYCyRwtwCSk6w0QGuW5yL6iCty?usp=sharing";
   return (
     <div>
       <Router>
@@ -20,7 +22,8 @@ function App() {
               path="/"
               element={
                 <>
-                  <Navbar /> <Hero />
+                  <Navbar />
+                  <Hero />
                 </>
               }
             ></Route>
@@ -54,7 +57,7 @@ function App() {
               path="/download"
               element={
                 <>
-                <RedirectToGoogleDrive folderUrl={drivelink}/>
+                  <RedirectToGoogleDrive folderUrl={drivelink} />
                 </>
               }
             ></Route>
@@ -62,7 +65,7 @@ function App() {
               path="/dl"
               element={
                 <>
-                <RedirectToGoogleDrive folderUrl={drivelink}/>
+                  <RedirectToGoogleDrive folderUrl={drivelink} />
                 </>
               }
             ></Route>
@@ -70,11 +73,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-        <aside>
-          <p>Copyright © 2024 - All right reserved by Whirl</p>
-        </aside>
-      </footer>
     </div>
   );
 }
