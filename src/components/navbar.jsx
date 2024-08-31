@@ -9,12 +9,9 @@ const navbar = () => {
   }, [isdark]);
   return (
     <div>
-      <div className="navbar bg-base-200">
+      <div className="navbar bg-base-100">
         <div className="flex-1">
-          <a
-            className="ml-2 text-2xl underline special cursor-crosshair "
-            href="/"
-          >
+          <a className="ml-2 text-3xl underline special cursor-none" href="/">
             Whirl
           </a>
         </div>
@@ -22,23 +19,32 @@ const navbar = () => {
         <div className="flex-none">
           <ul className="px-1 menu menu-horizontal">
             <li>
-              <a href="/about">About</a>
+              <a className="text-lg" href="/about">
+                About
+              </a>
             </li>
             <li>
-              <a target="_blank" href="https://itp.whirlxd.xyz">
+              <a
+                className="text-lg"
+                target="_blank"
+                href="https://itp.whirlxd.xyz"
+              >
                 iTp
               </a>
             </li>
             <li>
               <details>
-                <summary>Contact</summary>
+                <summary className="text-lg">Contact</summary>
                 <ul className="p-2 rounded-t-none bg-base-100">
                   <li>
-                    <a href="/contact">Message</a>
+                    <a className="text-base" href="/contact">
+                      Message
+                    </a>
                   </li>
                   <li>
                     <a
                       target="_blank"
+                      className="base"
                       href=" https://discordapp.com/users/808332105108553759"
                     >
                       Discord

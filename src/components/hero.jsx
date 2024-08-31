@@ -12,28 +12,31 @@ const hero = () => {
           <img
             src="https://github.com/whirlxd.png"
             alt="hero"
-            className="relative w-56 mb-2 ml-2 rounded-lg h-58 md:mr-8 "
+            className="relative w-56 mb-2 rounded-lg h-58 md:mr-8 "
           />
         </div>
-        <div className="ml-3 text-center md:text-left">
-          <h1 className="special text-7xl md:text-8xl pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#72ccd5] via-[#f817b1] to-[#72ccd5] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent ml-4">
+        <div className="text-center md:text-left">
+          <h1 className="special text-7xl md:text-8xl pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#72ccd5] via-[#f817b1] to-[#72ccd5] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent">
             Whirl
           </h1>
-          <div className="mt-2 text-2xl italic font-semibold text-center text-gray-500 md:text-3xl">
-            <Typewriter
-              options={{
-                strings: ["Designer", "Developer", "Student"],
-                autoStart: true,
-                loop: true,
-                delay: 75,
-                cursor: "",
-              }}
-            />
-          </div>
-
+          <p className="text-2xl font-semibold text-center text-gray-500 md:text-3xl">
+            <span className="inline-flex items-center">
+              I'm a ‎ {"   "}
+              <Typewriter
+                options={{
+                  strings: [" Designer", " Developer", " Student"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 75,
+                  cursor: "",
+                }}
+              />
+            </span>
+          </p>
           <div className="flex flex-wrap items-center justify-center mx-auto mt-5 text-center gap-x-4 gap-y-2">
             <a
-              href="#"
+              href="https://github.com/whirlxd"
+              target="_blank"
               className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 hover:-translate-x-2"
             >
               <svg
@@ -48,7 +51,8 @@ const hero = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://instagram.com/whirlxd"
+              target="_blank"
               className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 "
             >
               <svg
@@ -68,7 +72,8 @@ const hero = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://twitter.com/whirlxd"
+              target="_blank"
               className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2"
             >
               <svg
@@ -83,7 +88,7 @@ const hero = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="/contact"
               className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 hover:translate-x-2"
             >
               <svg
