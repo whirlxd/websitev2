@@ -15,7 +15,7 @@ const hero = () => {
             className="relative w-56 mb-2 ml-2 rounded-lg h-58 md:mr-8 "
           />
         </div>
-        <div className="text-center md:text-left">
+        <div className="ml-3 text-center md:text-left">
           <h1 className="special text-7xl md:text-8xl pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#72ccd5] via-[#f817b1] to-[#72ccd5] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent ml-4">
             Whirl
           </h1>

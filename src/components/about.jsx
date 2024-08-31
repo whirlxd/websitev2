@@ -41,17 +41,17 @@ const about = () => {
               My Skills
             </h2>
           </AnimationOnScroll>
-          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Some of the skills i'v acquired over the years and my proficiency
-            with them
+          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 text-pretty">
+            Here are some of the skills I've acquired over the years and my
+            proficiency in each.
           </p>
         </div>
 
-        <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+        <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] grid-cols-2 md:grid-cols-3">
           <div animateIn="zoomIn" animateOnce="true">
             <div
               href="https://whirlxd.xyz"
-              className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold"
+              className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary"
             >
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
@@ -99,7 +99,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateIn" animateOnce="true">
-            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
+            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -146,7 +146,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInDownRight" animateOnce="true">
-            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
+            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -193,7 +193,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInUpLeft" animateOnce="true">
-            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
+            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -240,7 +240,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateIn" animateOnce="true">
-            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
+            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -287,7 +287,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInUpRight" animateOnce="true">
-            <div className="relative p-2 overflow-hidden rounded-lg select-none bg-base-200 hover:font-extrabold hover:shadow-teal-200">
+            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -367,10 +367,12 @@ const about = () => {
             </div>
             <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2024</time>
-              <div className="text-lg font-black">
+              <div className="text-lg font-black ">
                 Learnt AI Models & Image Manipulation
               </div>
-              Learnt working with complex cnn models and image manipulation
+              <p className="text-gray-400 text-clip">
+                Started learning AI models and web3
+              </p>
             </div>
 
             <hr className="bg-accent" />
@@ -397,9 +399,8 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt Editing & UI/UX Design
               </div>
-              <p className="text-balanced">
-                Focused more on the design aspect of the projects and learnt how
-                to wireframe
+              <p className="text-gray-400 text-balanced">
+                Started learning editing and principles of UI/UX design
               </p>
             </div>
             <hr className="bg-primary" />
@@ -425,9 +426,8 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt ReactJS & Other langs
               </div>
-              <p className=" text-ellipsis">
-                Started learning other programming languages and frameworks such
-                as react , python , c++ , lua etc..
+              <p className="text-gray-400 text-ellipsis">
+                Started learning react and other languages like python and c
               </p>
             </div>
             <hr className="bg-accent" />
@@ -453,9 +453,8 @@ const about = () => {
               <div className="text-lg font-black">
                 Learnt Javascript & Nodejs
               </div>
-              <p className=" text-clip">
-                First encounter with programming and started learning javascript
-                and node
+              <p className="text-gray-400 text-clip">
+                Had my first experience with javascript and nodejs
               </p>
             </div>
             <hr className="bg-primary" />
@@ -497,7 +496,7 @@ const about = () => {
 
       <div className="hero ">
         <div className="text-center align-center ">
-          <div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 text-center md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-6">
             <div>
               <div animateIn="slideInLeft" animateOnce="true">
                 <Project

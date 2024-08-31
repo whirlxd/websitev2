@@ -3,18 +3,22 @@ import React from "react";
 const project = (props) => {
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="transition-transform duration-150 shadow-xl card w-80 md:w-96 bg-secondary hover:scale-90">
         <figure className="px-10 pt-10">
-          <img src={props.image} alt="Shoes" className="rounded-xl" />
+          <img src={props.image} alt="project preview" className="rounded-lg" />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="items-center text-center card-body">
           <h2 className="card-title">{props.name}</h2>
 
-          <p className="text-md italic text-clip ">{props.des}</p>
+          <p className="italic text-md text-clip ">{props.des}</p>
           <br></br>
 
           <div className="card-actions">
-            <a target="_blank" href={props.href} className="btn btn-primary">
+            <a
+              target="_blank"
+              href={props.href}
+              className=" btn btn-primary hover:bg-opacity-75"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -22,6 +26,8 @@ const project = (props) => {
                 width="24"
                 height="24"
                 viewBox="0,0,256,256"
+                fill="currentColor"
+                className="fill-black"
                 // style="fill:#000000;"
               >
                 <g
