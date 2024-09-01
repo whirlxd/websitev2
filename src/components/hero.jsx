@@ -1,8 +1,8 @@
 import React from "react";
-import { AnimationOnScroll } from "react-animation-on-scroll";
-import Typewriter from "typewriter-effect";
-import Doof from "../../public/doof-nobg.png";
 
+import Typewriter from "typewriter-effect";
+
+import GradualSpacing from "./ui/gradual-spacing";
 const hero = () => {
   return (
     <div className="flex items-center justify-center min-h-[95vh] bg-base-200">
@@ -16,15 +16,21 @@ const hero = () => {
           />
         </div>
         <div className="text-center md:text-left">
-          <h1 className="special text-7xl md:text-8xl pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#72ccd5] via-[#f817b1] to-[#72ccd5] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent">
-            Whirl
-          </h1>
+          <GradualSpacing
+            text="Whirl"
+            duration={0.5}
+            delayMultiple={0.2}
+            className="
+          special text-7xl md:text-8xl pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#72ccd5] via-[#f817b1] to-[#72ccd5] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent
+          "
+          />
+
           <p className="text-2xl font-semibold text-center text-gray-500 md:text-3xl">
             <span className="inline-flex items-center">
               I'm a ‎ {"   "}
               <Typewriter
                 options={{
-                  strings: [" Designer", " Developer", " Student"],
+                  strings: ["Developer", "UI/UX Designer", " Student"],
                   autoStart: true,
                   loop: true,
                   delay: 75,

@@ -23,15 +23,7 @@ const navbar = () => {
                 About
               </a>
             </li>
-            <li>
-              <a
-                className="text-lg"
-                target="_blank"
-                href="https://itp.whirlxd.xyz"
-              >
-                iTp
-              </a>
-            </li>
+
             <li>
               <details>
                 <summary className="text-lg">Contact</summary>

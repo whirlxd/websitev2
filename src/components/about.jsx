@@ -5,31 +5,9 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const about = () => {
   return (
     <div className="bg-base-200">
-      {/* <div className="hero bg-base-200 ">
-        <h1 className="pt-6 pl-2 text-5xl font-bold underline ">About Me</h1>
-      </div>
-      <div className="min-h-screen hero bg-base-200">
-        <div className="hero-content">
-          <div className="max-w-md">
-            <div className="grid grid-rows-2 gap-4 grid-flow">
-              <div>01</div>
-              <div>02</div>
-              <div>03</div>
-
-              <div>04</div>
-              <div>05</div>
-              <div>06</div>
-              <div>07</div>
-              <div>08</div>
-              <div>09</div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       <section
         id="features"
-        className="container px-4 py-8 mx-auto space-y-6 bg-base-200 md:py-12 lg:py-20"
+        className="container min-h-screen px-4 py-8 mx-auto space-y-6 bg-base-200 md:py-12 lg:py-20"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <AnimationOnScroll
@@ -47,12 +25,9 @@ const about = () => {
           </p>
         </div>
 
-        <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] grid-cols-2 md:grid-cols-3">
-          <div animateIn="zoomIn" animateOnce="true">
-            <div
-              href="https://whirlxd.xyz"
-              className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary"
-            >
+        <div className="mx-auto grid  gap-5 sm:grid-cols-2 md:max-w-[64rem] grid-cols-2 md:grid-cols-3">
+          <div className="relative">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out select-none hover:p-1 hover:scale-105 bg-secondary rounded-3xl hover:font-extrabold hover:shadow-teal-200 hover:border-4 border-primary will-change-transform">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -99,7 +74,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateIn" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -146,7 +121,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInDownRight" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -192,8 +167,8 @@ const about = () => {
               </div>
             </div>
           </div>
-          <div animateIn="rotateInUpLeft" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+          <div className="relative">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -240,7 +215,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateIn" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -287,7 +262,7 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInUpRight" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition ease-in-out delay-300 select-none rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
@@ -337,10 +312,7 @@ const about = () => {
           </div>
         </div>
       </section>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
       <AnimationOnScroll animateIn="fadeInDown" animateOnce="true">
         <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
           My Road
