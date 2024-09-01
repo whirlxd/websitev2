@@ -16,22 +16,21 @@ const about = () => {
             offset={0}
           >
             <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline ">
-              My Skills
+              My Stack
             </h2>
           </AnimationOnScroll>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 text-pretty">
-            Here are some of the skills I've acquired over the years and my
-            proficiency in each.
+            The Tech Stack I am familiar with and have worked on.
           </p>
         </div>
 
         <div className="mx-auto grid  gap-5 sm:grid-cols-2 md:max-w-[64rem] grid-cols-2 md:grid-cols-3">
           <div className="relative">
-            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 bg-secondary rounded-3xl hover:font-extrabold hover:shadow-teal-200 hover:border-4 border-primary will-change-transform">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:border-b-8 hover:scale-105 bg-secondary rounded-3xl hover:font-extrabold hover:shadow-teal-200 hover:border-4 border-primary will-change-transform">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 75 }}
+                  style={{ "--value": 100 }}
                   role="progressbar"
                 >
                   <svg
@@ -74,11 +73,11 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateIn" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:border-b-8 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 90 }}
+                  style={{ "--value": 100 }}
                   role="progressbar"
                 >
                   <svg
@@ -121,11 +120,11 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInDownRight" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:border-b-8 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 85 }}
+                  style={{ "--value": 100 }}
                   role="progressbar"
                 >
                   <svg
@@ -168,11 +167,11 @@ const about = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:border-b-8 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 50 }}
+                  style={{ "--value": 100 }}
                   role="progressbar"
                 >
                   <svg
@@ -215,11 +214,11 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateIn" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:border-b-8 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 65 }}
+                  style={{ "--value": 100 }}
                   role="progressbar"
                 >
                   <svg
@@ -262,11 +261,11 @@ const about = () => {
             </div>
           </div>
           <div animateIn="rotateInUpRight" animateOnce="true">
-            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary">
+            <div className="relative p-2 overflow-hidden transition-transform ease-in-out border-b-4 select-none hover:p-1 hover:scale-105 rounded-3xl hover:font-extrabold hover:shadow-teal-200 bg-secondary hover:border-4 border-primary hover:border-b-8">
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 80 }}
+                  style={{ "--value": 100 }}
                   role="progressbar"
                 >
                   <svg

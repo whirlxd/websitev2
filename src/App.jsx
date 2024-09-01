@@ -12,7 +12,7 @@ import "./App.css";
 import { Scrollbar } from "react-scrollbars-custom";
 function App() {
   const drivelink =
-    "https://drive.google.com/drive/folders/1C1azwQtYCyRwtwCSk6w0QGuW5yL6iCty?usp=sharing";
+    "https://1drv.ms/p/c/749e4138a9a3feb3/ESN9iBILYJpNtPsr1paDqd8BcicQmVhn0o3dY_J5LT937w?e=Z2sfbR";
   return (
     <div>
       <Router>
