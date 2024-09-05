@@ -5,14 +5,15 @@ import Typewriter from "typewriter-effect";
 import GradualSpacing from "./ui/gradual-spacing";
 const hero = () => {
   return (
-    <div className="flex items-center justify-center min-h-[95vh] bg-base-200">
+    <div className="flex items-center justify-center min-h-[80vh] bg-base-200 ">
       <div className="flex flex-col items-center md:flex-row">
         <div className="relative">
           <div className="absolute inset-0  w-56 h-58  bg-gradient-to-r from-[#72ccd5] via-[#f817b1] to-[#72ccd5] blur-3xl rounded-3xl "></div>
+
           <img
             src="https://github.com/whirlxd.png"
             alt="hero"
-            className="relative w-56 mb-2 rounded-lg h-58 md:mr-8 "
+            className="relative w-56 mb-2 transition-shadow duration-300 ease-in-out rounded-lg shadow-2xl h-58 md:mr-8 shadow-transparent hover:shadow-slate-700 "
           />
         </div>
         <div className="text-center md:text-left">
@@ -27,7 +28,7 @@ const hero = () => {
 
           <p className="text-2xl font-semibold text-center text-gray-500 md:text-3xl">
             <span className="inline-flex items-center">
-              I'm a ‎ {"   "}
+              I'm a&nbsp;
               <Typewriter
                 options={{
                   strings: ["Developer", "UI/UX Designer", " Student"],
@@ -43,7 +44,7 @@ const hero = () => {
             <a
               href="https://github.com/whirlxd"
               target="_blank"
-              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 hover:-translate-x-2"
+              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 hover:-translate-x-2 "
             >
               <svg
                 width="36"

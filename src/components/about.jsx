@@ -205,7 +205,7 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 text-xl extrabold ">DBMS</h1>
+                <h1 className="pt-2 text-xl extrabold ">SQL</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
@@ -252,7 +252,7 @@ const about = () => {
                     </g>
                   </svg>
                 </div>
-                <h1 className="pt-2 text-xl extrabold ">Editing</h1>
+                <h1 className="pt-2 text-xl extrabold ">Filmora</h1>
               </div>
               <div className="space-y-2">
                 <h3 className="font-bold"></h3>
@@ -300,7 +300,7 @@ const about = () => {
                   </svg>
                 </div>
 
-                <h1 className="pt-2 text-xl extrabold ">App Dev</h1>
+                <h1 className="pt-2 text-xl extrabold ">Native Apps</h1>
               </div>
 
               <div className="space-y-2">
@@ -338,11 +338,9 @@ const about = () => {
             </div>
             <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2024</time>
-              <div className="text-lg font-black ">
-                Learnt AI Models & Image Manipulation
-              </div>
+              <div className="text-lg font-black ">Learnt working with AI</div>
               <p className="text-gray-400 text-clip">
-                Started learning AI models and web3
+                Recently got on the AI hype train
               </p>
             </div>
 
@@ -371,7 +369,7 @@ const about = () => {
                 Learnt Editing & UI/UX Design
               </div>
               <p className="text-gray-400 text-balanced">
-                Started learning editing and principles of UI/UX design
+                Focused more on creative parts like UI/UX design and VFX
               </p>
             </div>
             <hr className="bg-primary" />
@@ -395,10 +393,10 @@ const about = () => {
             <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2022</time>
               <div className="text-lg font-black">
-                Learnt ReactJS & Other langs
+                Learnt Programming Languages
               </div>
               <p className="text-gray-400 text-ellipsis">
-                Started learning react and other languages like python and c
+                Started learning c++ and react
               </p>
             </div>
             <hr className="bg-accent" />
@@ -422,10 +420,10 @@ const about = () => {
             <div className="mb-10 timeline-end">
               <time className="font-mono italic">2021</time>
               <div className="text-lg font-black">
-                Learnt Javascript & Nodejs
+                Learnt Scripting Languages
               </div>
               <p className="text-gray-400 text-clip">
-                Had my first experience with javascript and nodejs
+                Had my first experience with javascript and python
               </p>
             </div>
             <hr className="bg-primary" />
@@ -449,7 +447,7 @@ const about = () => {
             <div className="mb-10 timeline-start md:text-end">
               <time className="font-mono italic">2019 & 2020</time>
               <div className="text-lg font-black">
-                Learnt Logical process flows and game dev
+                Learnt Visual Basic & Scratch
               </div>
             </div>
           </li>
@@ -474,6 +472,7 @@ const about = () => {
                   name="IMG to PDF"
                   href="https://github.com/whirlxd/IMG-To-PDF "
                   des="Lightweight Image to PDF converter"
+                  stack="https://skillicons.dev/icons?i=typescript,nodejs,react,tailwind"
                   image="https://socialify.git.ci/whirlxd/IMG-To-PDF/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
               </div>
@@ -483,6 +482,7 @@ const about = () => {
                 <Project
                   name="Musico"
                   href="https://github.com/whirlxd/musico "
+                  stack="https://skillicons.dev/icons?i=js,nodejs,discordjs,discord"
                   des="An open source all in one music bot"
                   image="https://socialify.git.ci/whirlxd/Musico/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
@@ -493,6 +493,7 @@ const about = () => {
                 <Project
                   name="Activity Bot"
                   href="https://github.com/whirlxd/activities "
+                  stack="https://skillicons.dev/icons?i=js,nodejs,discordjs,discord"
                   des="Simple bot to utilize slash commands"
                   image="https://socialify.git.ci/whirlxd/Activities/image?description=1&descriptionEditable=A%20discord%20bot%20for%20playing%20games%20and%20watching%20youtube%20&language=1&name=1&owner=1&theme=Light"
                 />
@@ -503,6 +504,7 @@ const about = () => {
                 <Project
                   name="Welcomer Bot"
                   href="https://github.com/whirlxd/welcomer "
+                  stack="https://skillicons.dev/icons?i=js,nodejs,discordjs,discord"
                   des="Bot to welcome new members in a server"
                   image="https://socialify.git.ci/whirlxd/Welcomer/image?description=1&descriptionEditable=%20An%20open%20source%20highly%20customizable%20and%20easy%20to%20use%20welcomer%20bot.&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
@@ -513,6 +515,7 @@ const about = () => {
                 <Project
                   name="SpotifyDL"
                   href="https://github.com/whirlxd/SpotifyDL "
+                  stack="https://skillicons.dev/icons?i=js,nodejs,windows,bash"
                   des="Convert spotify playlists to mp3 files"
                   image="https://socialify.git.ci/whirlxd/SpotifyDL/image?description=1&descriptionEditable=%20a%20simple%20nodejs%20program%20to%20convert%20spotify%20playlists%20to%20mp3%20files&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
                 />
@@ -523,6 +526,7 @@ const about = () => {
                 <Project
                   name="Text Editor"
                   href="https://github.com/whirlxd/text-editor "
+                  stack="https://skillicons.dev/icons?i=react,vite,nodejs,markdown"
                   des="Simple text editor with basic features"
                   image="https://socialify.git.ci/whirlxd/Text-Editor/image?description=1&language=1&name=1&owner=1&theme=Light"
                 />

@@ -11,7 +11,7 @@ const navbar = () => {
     <div>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <a className="ml-2 text-3xl underline special cursor-none" href="/">
+          <a className="ml-2 text-3xl underline special " href="/">
             Whirl
           </a>
         </div>

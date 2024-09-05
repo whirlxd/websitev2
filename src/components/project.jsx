@@ -3,21 +3,28 @@ import React from "react";
 const project = (props) => {
   return (
     <div>
-      <div className="transition-transform duration-150 shadow-xl card w-80 md:w-96 bg-secondary hover:scale-90">
-        <figure className="px-10 pt-10">
+      <div className="transition-transform duration-150 shadow-xl card w-80 md:w-96 bg-secondary group hover:scale-105">
+        <figure className="transition-transform duration-150 ease-in-out border-t-4 border-accent group-hover:scale-75 group-hover:border-t-0 ">
           <img src={props.image} alt="project preview" className="rounded-lg" />
         </figure>
         <div className="items-center text-center card-body">
           <h2 className="card-title">{props.name}</h2>
 
-          <p className="italic text-md text-clip ">{props.des}</p>
-          <br></br>
+          <p className="mb-2 italic text-md text-clip">
+            {props.des}
+            <img
+              src={props.stack}
+              height={100}
+              width={100}
+              className="mx-auto text-center"
+            />
+          </p>
 
           <div className="card-actions">
             <a
               target="_blank"
               href={props.href}
-              className=" btn btn-primary hover:bg-opacity-75"
+              className="mt-2 w-36 btn btn-primary hover:bg-opacity-75"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
