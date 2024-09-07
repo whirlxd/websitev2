@@ -28,7 +28,7 @@ const Navbar = () => {
           <ul className="px-1 menu menu-horizontal">
             <li>
               <a
-                className="text-lg"
+                className="text-lg transition-colors duration-300 hover:bg-transparent hover:text-accent"
                 href="#about"
                 onClick={(e) => handleScrollTo(e, "about")}
               >
@@ -37,12 +37,14 @@ const Navbar = () => {
             </li>
             <li>
               <details>
-                <summary className="text-lg">Contact</summary>
+                <summary className="text-lg transition-colors duration-300 hover:bg-transparent hover:text-accent">
+                  Contact
+                </summary>
                 <ul className="p-4 rounded-t-none bg-base-100">
                   <li>
                     <a
                       onClick={(e) => handleScrollTo(e, "contact")}
-                      className="text-base"
+                      className="text-base hover:bg-transparent"
                       href="#contact"
                     >
                       Message
@@ -50,7 +52,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      className="text-base "
+                      className="text-base hover:bg-transparent hover:underline"
                       href="https://discord.com/users/808332105108553759"
                       target="_blank"
                     >
