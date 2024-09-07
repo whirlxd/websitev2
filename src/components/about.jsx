@@ -491,11 +491,11 @@ const about = () => {
             <div>
               <div animateIn="slideInRight" animateOnce="true">
                 <Project
-                  name="Activity Bot"
-                  href="https://github.com/whirlxd/activities "
-                  stack="https://skillicons.dev/icons?i=js,nodejs,discordjs,discord"
-                  des="Simple bot to utilize slash commands"
-                  image="https://socialify.git.ci/whirlxd/Activities/image?description=1&descriptionEditable=A%20discord%20bot%20for%20playing%20games%20and%20watching%20youtube%20&language=1&name=1&owner=1&theme=Light"
+                  name="NPC Comment Blocker"
+                  href="https://github.com/whirlxd/npc-comment-blocker"
+                  stack="https://skillicons.dev/icons?i=js,html,gcp,tailwind"
+                  des="Extension to block NPC comments"
+                  image="https://socialify.git.ci/whirlxd/npc-comment-blocker/image?description=1&language=1&name=1&owner=1&theme=Light"
                 />
               </div>
             </div>

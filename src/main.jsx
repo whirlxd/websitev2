@@ -14,6 +14,8 @@ const lenis = new Lenis({
   duration: 1.4, // Longer duration for smoother scroll
   easing: (t) => 1 - Math.pow(1 - t, 3), // Ease-out cubic easing
   smooth: true, // Smooth scrolling
+  syncTouch: true,
+  gestureDirection: "both",
 });
 
 function raf(time) {
