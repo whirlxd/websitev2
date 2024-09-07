@@ -1,10 +1,8 @@
-import React from "react";
-
 const project = (props) => {
   return (
     <div>
-      <div className="transition-transform duration-150 shadow-xl card w-80 md:w-96 bg-secondary group hover:scale-105">
-        <figure className="transition-transform duration-150 ease-in-out border-t-4 border-accent group-hover:scale-75 group-hover:border-t-0 ">
+      <div className="transition-transform duration-200 shadow-xl card w-80 md:w-96 bg-secondary group hover:scale-105">
+        <figure className="transition-transform duration-200 ease-in-out border-t-4 border-accent group-hover:border-t-0 ">
           <img src={props.image} alt="project preview" className="rounded-lg" />
         </figure>
         <div className="items-center text-center card-body">
@@ -24,7 +22,7 @@ const project = (props) => {
             <a
               target="_blank"
               href={props.href}
-              className="mt-2 w-36 btn btn-primary hover:bg-opacity-75"
+              className="mt-2 transition-transform duration-300 ease-in-out w-36 btn btn-primary hover:bg-opacity-75 group-hover:scale-105"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,18 +37,18 @@ const project = (props) => {
               >
                 <g
                   fill="#ffffff"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                   stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
+                  strokeWidth="1"
+                  strokeLinecap="butt"
+                  strokeLinejoin="miter"
+                  strokeMiterlimit="10"
+                  strokeDasharray=""
+                  strokeDashoffset="0"
+                  fontFamily="none"
+                  fontWeight="none"
+                  fontSize="none"
+                  textAnchor="none"
                   // style="mix-blend-mode: normal"
                 >
                   <g transform="scale(10.66667,10.66667)">

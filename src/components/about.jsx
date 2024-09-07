@@ -1,5 +1,5 @@
-import React from "react";
-import Skillrate from "./skillrate";
+/* eslint-disable react/no-unknown-property */
+
 import Project from "./project";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 const about = () => {

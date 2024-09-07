@@ -1,6 +1,8 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Swal from "sweetalert2";
+// eslint-disable-next-line no-unused-vars
 import withReactContent from "sweetalert2-react-content";
 import axios from "axios";
 const contactform = () => {

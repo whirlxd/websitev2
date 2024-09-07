@@ -5,11 +5,10 @@ import Contactform from "./components/contactform";
 import Errorpage from "./components/error";
 import RedirectToGoogleDrive from "./components/pptHistory";
 import Headroom from "react-headroom";
-import Header from "./components/header";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "animate.css/animate.compat.css";
 import "./App.css";
-import { Scrollbar } from "react-scrollbars-custom";
+
 function App() {
   const drivelink =
     "https://1drv.ms/p/c/749e4138a9a3feb3/ESN9iBILYJpNtPsr1paDqd8BcicQmVhn0o3dY_J5LT937w?e=Z2sfbR";
@@ -23,7 +22,15 @@ function App() {
               element={
                 <>
                   <Navbar />
-                  <Hero />
+                  <section id="hero">
+                    <Hero />
+                  </section>
+                  <section id="about">
+                    <About />
+                  </section>
+                  <section id="contact">
+                    <Contactform />
+                  </section>
                 </>
               }
             ></Route>
