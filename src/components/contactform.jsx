@@ -81,8 +81,8 @@ const contactform = () => {
     }
   };
   return (
-    <div className="bg-base-200">
-      <section className="min-h-screen bg-base-200">
+    <div className="bg-base-100">
+      <section className="min-h-fit bg-base-100">
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:col-span-2 lg:py-12">
@@ -133,7 +133,8 @@ const contactform = () => {
                     </label>
                     <AnimationOnScroll
                       animateOnce="true"
-                      animateIn="fadeInLeft"
+                      animateIn="fadeInDown"
+                      delay={200}
                     >
                       <input
                         className="w-full p-3 text-sm rounded-lg textarea textarea-accent"
@@ -159,7 +160,8 @@ const contactform = () => {
                     </label>
                     <AnimationOnScroll
                       animateOnce="true"
-                      animateIn="fadeInRight"
+                      animateIn="fadeInDown"
+                      delay={200}
                     >
                       <input
                         className="w-full p-3 text-sm rounded-lg textarea textarea-primary"

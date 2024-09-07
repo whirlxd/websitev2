@@ -4,6 +4,7 @@ import About from "./components/about";
 import Contactform from "./components/contactform";
 import Errorpage from "./components/error";
 import RedirectToGoogleDrive from "./components/pptHistory";
+import Footer from "./components/footer";
 import Headroom from "react-headroom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "animate.css/animate.compat.css";
@@ -31,6 +32,9 @@ function App() {
                   <section id="contact">
                     <Contactform />
                   </section>
+                  <footer>
+                    <Footer />
+                  </footer>
                 </>
               }
             ></Route>

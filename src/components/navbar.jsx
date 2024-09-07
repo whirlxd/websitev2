@@ -1,5 +1,5 @@
 import { lenis } from "../main.jsx"; // Adjust the import path as necessary
-
+import Headroom from "react-headroom";
 function handleScrollTo(event, targetId) {
   event.preventDefault();
   const targetElement = document.getElementById(targetId);
@@ -10,8 +10,15 @@ function handleScrollTo(event, targetId) {
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <Headroom
+      style={{
+        webkitTransition: "all .5s ease-in-out",
+        mozTransition: "all .5s ease-in-out",
+        oTransition: "all .5s ease-in-out",
+        transition: "all .5s ease-in-out",
+      }}
+    >
+      <nav className="navbar bg-base-300">
         <div className="flex-1">
           <a className="ml-2 text-3xl underline special" href="/">
             Whirl
@@ -55,8 +62,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
-    </div>
+      </nav>
+    </Headroom>
   );
 };
 

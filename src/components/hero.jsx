@@ -11,7 +11,7 @@ const hero = () => {
           <img
             src="https://github.com/whirlxd.png"
             alt="hero"
-            className="relative w-56 mb-2 transition-shadow duration-300 ease-in-out rounded-lg shadow-2xl h-58 md:mr-8 shadow-transparent hover:shadow-slate-700 "
+            className="relative w-56 mb-2 transition-shadow duration-300 ease-in-out rounded-lg shadow-2xl h-58 md:mr-8 shadow-transparent "
           />
         </div>
         <div className="text-center md:text-left">
