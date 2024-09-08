@@ -42,7 +42,7 @@ const hero = () => {
             <a
               href="https://github.com/whirlxd"
               target="_blank"
-              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 hover:-translate-x-2 "
+              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover: hover:-translate-x-2 "
             >
               <svg
                 width="32"
@@ -58,7 +58,7 @@ const hero = () => {
             <a
               href="https://instagram.com/whirlxd"
               target="_blank"
-              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 "
+              className="w-8 h-8 transition-transform ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary "
             >
               <svg
                 width="32"
@@ -79,7 +79,7 @@ const hero = () => {
             <a
               href="https://twitter.com/whirlxd"
               target="_blank"
-              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2"
+              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:"
             >
               <svg
                 width="32"
@@ -94,7 +94,7 @@ const hero = () => {
             </a>
             <a
               href="/contact"
-              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover:translate-y-2 hover:translate-x-2"
+              className="w-8 h-8 transition-transform duration-300 ease-in-out bg-transparent rounded-md md:w-10 md:h-10 flex-basis-1/2 border-primary hover: hover:translate-x-2"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
