@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
+    "@mdx-js/react": "^3.0.1",
     "@studio-freight/lenis": "^1.0.42",
     "@supabase/supabase-js": "^2.45.3",
     "animate.css": "^4.1.1",
@@ -26,7 +27,8 @@
     "supabase": "^1.191.3",
     "sweetalert2": "^11.11.0",
     "sweetalert2-react-content": "^5.0.7",
-    "typewriter-effect": "^2.21.0"
+    "typewriter-effect": "^2.21.0",
+    "vite-plugin-mdx": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
