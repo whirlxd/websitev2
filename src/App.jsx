@@ -81,7 +81,7 @@ function App() {
                 </>
               }
             ></Route>
-            <Route path="/blog/:blogId " element={<Blog />} />
+            <Route path="/blog/:blogId" element={<Blog />} />
             <Route path="*" element={<Errorpage />} />
           </Routes>
         </div>
