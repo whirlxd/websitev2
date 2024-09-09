@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@mdx-js/react": "^3.0.1",
+    "@mdx-js/rollup": "^3.0.1",
     "@studio-freight/lenis": "^1.0.42",
     "@supabase/supabase-js": "^2.45.3",
     "animate.css": "^4.1.1",

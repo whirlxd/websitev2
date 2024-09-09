@@ -6,6 +6,7 @@ import Errorpage from "./components/error";
 import RedirectToGoogleDrive from "./components/pptHistory";
 import Footer from "./components/footer";
 import Headroom from "react-headroom";
+import Blog from "./components/blog";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "animate.css/animate.compat.css";
 import "./App.css";
@@ -80,6 +81,7 @@ function App() {
                 </>
               }
             ></Route>
+            <Route path="/blog/:blogId " element={<Blog />} />
             <Route path="*" element={<Errorpage />} />
           </Routes>
         </div>
