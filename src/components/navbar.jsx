@@ -1,14 +1,19 @@
+import { useState } from "react";
 import { lenis } from "../main.jsx"; // Adjust the import path as necessary
 import Headroom from "react-headroom";
-function handleScrollTo(event, targetId) {
+
+function handleScrollTo(event, targetId, setDropdownOpen) {
   event.preventDefault();
   const targetElement = document.getElementById(targetId);
   if (targetElement) {
     lenis.scrollTo(targetElement);
+    setDropdownOpen(false); // Close the dropdown after scrolling
   }
 }
 
 const Navbar = () => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
   return (
     <Headroom
       style={{
@@ -30,20 +35,28 @@ const Navbar = () => {
               <a
                 className="text-lg transition-colors duration-300 hover:bg-transparent hover:text-accent"
                 href="#about"
-                onClick={(e) => handleScrollTo(e, "about")}
+                onClick={(e) => handleScrollTo(e, "about", setDropdownOpen)}
               >
                 About
               </a>
             </li>
             <li>
-              <details>
-                <summary className="text-lg transition-colors duration-300 hover:bg-transparent hover:text-accent">
+              <details
+                open={dropdownOpen}
+                onToggle={(e) => setDropdownOpen(e.target.open)}
+              >
+                <summary
+                  className="text-lg transition-colors duration-300 hover:bg-transparent hover:text-accent"
+                  onClick={() => setDropdownOpen(false)}
+                >
                   Contact
                 </summary>
                 <ul className="p-4 rounded-t-none bg-base-100">
                   <li>
                     <a
-                      onClick={(e) => handleScrollTo(e, "contact")}
+                      onClick={(e) =>
+                        handleScrollTo(e, "contact", setDropdownOpen)
+                      }
                       className="text-base hover:bg-transparent"
                       href="#contact"
                     >
@@ -55,6 +68,7 @@ const Navbar = () => {
                       className="text-base hover:bg-transparent hover:underline"
                       href="https://discord.com/users/808332105108553759"
                       target="_blank"
+                      onClick={() => setDropdownOpen(false)}
                     >
                       Discord
                     </a>

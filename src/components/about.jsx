@@ -15,7 +15,7 @@ const about = () => {
             animateOnce="true"
             offset={0}
           >
-            <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline ">
+            <h2 className=" special font-bold text-5xl md:text-7xl leading-[1.1]   underline ">
               My Stack
             </h2>
           </AnimationOnScroll>
@@ -79,7 +79,7 @@ const about = () => {
               <div className="flex h-[180px] flex-col justify-between rounded-md p-6 items-center text-center">
                 <div
                   className="text-xl font-bold radial-progress "
-                  style={{ "--value": 100 }}
+                  style={{ "--value": 150 }}
                   role="progressbar"
                 >
                   <svg
@@ -269,7 +269,7 @@ const about = () => {
                   </svg>
                 </div>
 
-                <h1 className="pt-2 text-xl extrabold ">C Language</h1>
+                <h1 className="pt-2 text-xl extrabold ">C Lang</h1>
               </div>
 
               <div className="space-y-2">
@@ -282,7 +282,7 @@ const about = () => {
       </section>
 
       <AnimationOnScroll animateIn="fadeInDown" animateOnce="true">
-        <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
+        <h2 className=" special font-bold text-5xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
           My Road
         </h2>
       </AnimationOnScroll>
@@ -425,7 +425,7 @@ const about = () => {
       <br></br>
       <br></br>
       <AnimationOnScroll animateIn="fadeInDown" animateOnce="true">
-        <h2 className=" special font-bold text-3xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
+        <h2 className=" special font-bold text-4xl md:text-7xl leading-[1.1] sm:text-3xl  underline text-center">
           My Projects
         </h2>
       </AnimationOnScroll>

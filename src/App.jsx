@@ -7,6 +7,9 @@ import RedirectToGoogleDrive from "./components/pptHistory";
 import Footer from "./components/footer";
 import Headroom from "react-headroom";
 import Blog from "./components/blog";
+import Infographic from "./components/infographic";
+import Timeline from "./components/timeline";
+import BlurFade from "./components/ui/blur-in";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "animate.css/animate.compat.css";
 import "./App.css";
@@ -28,6 +31,8 @@ function App() {
                     <Hero />
                   </section>
                   <section id="about">
+                    <Infographic />
+
                     <About />
                   </section>
                   <section id="contact">

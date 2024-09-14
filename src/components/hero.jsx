@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import BlurFade from "./ui/blur-in";
 
 import GradualSpacing from "./ui/gradual-spacing";
 const hero = () => {
@@ -7,12 +8,13 @@ const hero = () => {
       <div className="flex flex-col items-center md:flex-row">
         <div className="relative">
           <div className="absolute inset-0  w-56 h-58  bg-gradient-to-r from-[#72ccd5] via-[#f817b1] to-[#72ccd5] blur-3xl rounded-3xl "></div>
-
-          <img
-            src="https://github.com/whirlxd.png"
-            alt="hero"
-            className="relative w-56 mb-2 transition-shadow duration-300 ease-in-out rounded-lg shadow-2xl h-58 md:mr-8 shadow-transparent "
-          />
+          <BlurFade duration={0.7}>
+            <img
+              src="https://github.com/whirlxd.png"
+              alt="hero"
+              className="relative w-56 mb-2 transition-shadow duration-300 ease-in-out rounded-lg shadow-2xl h-58 md:mr-8 shadow-transparent "
+            />
+          </BlurFade>
         </div>
         <div className="text-center md:text-left">
           <GradualSpacing
