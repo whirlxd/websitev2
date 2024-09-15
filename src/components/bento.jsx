@@ -9,7 +9,7 @@ function Bento() {
 					<BlurFade inView>
 						<img
 							src="https://github-readme-streak-stats.herokuapp.com/?user=whirlxd&theme=tokyonight&hide_border=true&show_icons=true"
-							className="w-full text-center transition-opacity ease-linear rounded-lg hover:opacity-50"
+							className="w-full text-center transition-opacity ease-linear rounded-lg hover:opacity-50 sm:mt-0 md:mt-10 lg:mt-0"
 							alt="streak"
 						/>
 					</BlurFade>

@@ -5,7 +5,7 @@ import Bento from "./bento";
 
 function infographic() {
 	return (
-		<div className="flex flex-col min-h-screen md:flex-row ">
+		<div className="flex flex-col min-h-screen lg:flex-row">
 			{/* Right half: Whirl */}
 			<div className="flex items-center justify-center flex-1 p-4 bg-opacity bg-gradient-to-r from-transparent to-secondary md:p-0">
 				<div className="text-container">
