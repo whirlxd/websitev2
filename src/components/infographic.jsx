@@ -18,7 +18,7 @@ function infographic() {
 							<span className="text-primary special">Whirl</span>
 						</div>
 					</div>
-					<p className="mt-2 text-center text-md md:text-lg text-slate-500">
+					<p className="text-center text-md md:text-lg text-slate-500">
 						16 • he/him
 					</p>
 					<p className="mt-2 text-center text-balance text-secondary-content">
@@ -55,7 +55,7 @@ function infographic() {
 										className=" fill-slate-400"
 									/>
 								</svg>{" "}
-								- Philippines
+								- Unknown
 							</p>
 							<p className="flex items-center font-mono font-extrabold">
 								<svg
@@ -69,7 +69,7 @@ function infographic() {
 										className="fill-slate-300"
 									/>
 								</svg>{" "}
-								- StreetScout
+								- Lorem Ips
 							</p>
 							<p className="flex items-center font-mono font-extrabold">
 								<svg
@@ -102,7 +102,12 @@ function infographic() {
 							</p>
 						</div>
 					</div>
-					<a href="/" className="flex items-center mx-20 mt-10 btn btn-primary">
+					<a
+						href="https://https://dev.to/whirl"
+						target="_blank"
+						rel="noreferrer"
+						className="flex items-center mx-20 mt-10 btn btn-primary"
+					>
 						Read My Blog
 					</a>
 				</div>

@@ -7,12 +7,12 @@ function Bento() {
 				<div className="grid grid-rows-[auto,auto,auto] grid-cols-1 gap-4">
 					<img
 						src="https://github-readme-streak-stats.herokuapp.com/?user=whirlxd&theme=tokyonight&hide_border=true&show_icons=true"
-						className="w-full text-center rounded-lg"
+						className="w-full text-center transition-opacity ease-linear rounded-lg hover:opacity-50"
 						alt="streak"
 					/>
 
 					<div className="grid grid-cols-2 gap-4">
-						<div className="w-32 md:w-40 bg-[#1DA1F2] rounded-lg lg:w-64 lg:h-36 h-28 mr-3 hover:translate-x-8 transition ease-in-out flex items-center justify-center ">
+						<div className="w-auto md:w-auto bg-[#1DA1F2] rounded-lg lg:w-64 lg:h-36 h-28 mr-3 hover:translate-x-8 transition ease-in-out flex items-center justify-center ">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="48"
@@ -25,7 +25,7 @@ function Bento() {
 								<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
 							</svg>
 						</div>
-						<div className="w-32 md:w-40 bg-[#FF5700] rounded-lg lg:w-64 lg:h-36 h-28 ml-3 hover:-translate-x-8 transition ease-in-out flex items-center justify-center">
+						<div className="w-auto md:w-auto bg-[#FF5700] rounded-lg lg:w-64 lg:h-36 h-28 ml-3 hover:-translate-x-8 transition ease-in-out flex items-center justify-center">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="48"
