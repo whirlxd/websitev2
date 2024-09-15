@@ -10,11 +10,11 @@ function infographic() {
 			<div className="flex items-center justify-center flex-1 p-4 bg-opacity bg-gradient-to-r from-transparent to-secondary md:p-0">
 				<div className="text-container">
 					<div className="relative flex items-center justify-center w-full h-40 ">
-						<div className="special absolute text-[100px] font-bold tracking-wider text-slate-500 opacity-20">
+						<div className="special absolute overflow-clip text-[68px] md:text-[100px] font-bold tracking-wider text-slate-500 opacity-20">
 							About
 						</div>
 
-						<div className="relative z-10 text-6xl font-bold tracking-wider">
+						<div className="relative z-10 text-5xl font-bold tracking-wider md:text-6xl">
 							<span className="text-white special">Im</span>
 							<span className="text-primary special">Whirl</span>
 						</div>

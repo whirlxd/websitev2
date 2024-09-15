@@ -58,7 +58,7 @@ function Bento() {
 						</BlurFade>
 					</div>
 					<BlurFade delay={0.1} inView>
-						<div className="h-32 flex items-center justify-center hover:opacity-50 transition-opacity ease-linear cursor-pointer rounded-lg bg-gradient-to-r from-[#f09433] via-[#e6683c] via-[#dc2743] via-[#cc2366] via-[#bc1888] to-[#833ab4]">
+						<div className="h-28 md:h-32 flex items-center justify-center hover:opacity-50 transition-opacity ease-linear cursor-pointer rounded-lg bg-gradient-to-r from-[#f09433] via-[#e6683c] via-[#dc2743] via-[#cc2366] via-[#bc1888] to-[#833ab4]">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="56"
