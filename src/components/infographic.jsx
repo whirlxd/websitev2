@@ -23,22 +23,34 @@ function infographic() {
 						16 • he/him
 					</p>
 					<p className="mt-2 text-center text-balance text-secondary-content">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						ipsum neque iste earum quidem modi, est molestias qui ad molestiae
-						dolorum laudantium velit quas possimus perspiciatis. Quod ut a vero!
+						A{" "}
+						<u className="underline transition-all ease-linear underline-offset-8 decoration-primary decoration-4 hover:decoration-2 hover:underline-offset-2">
+							self-taught developer
+						</u>{" "}
+						with a flair for tech, i am a man who hates gpt wrappers with the
+						same zeal. In my downtime, i enjoy playing video games and reading.
 					</p>
 
 					<p className="mt-4 text-center text-balance text-secondary-content">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-						quod eum tenetur quam molestiae dolor laudantium, earum suscipit
-						laborum aut aliquam. Dolore eos cumque beatae maxime quasi at ipsa
-						itaque.
+						I like to argue and debate for fun, and i am always looking for new
+						challenges. As a skibidi-sigma myself i enjoy the Talk Tuah
+						podcast.Seriously though my favorite artist is{" "}
+						<u className="underline transition-all ease-linear decoration-primary decoration-4 hover:decoration-2 underline-offset-8 hover:underline-offset-2">
+							Kanye West
+						</u>{" "}
+						but favorite song is{" "}
+						<u className="underline transition-all ease-linear decoration-primary decoration-4 hover:decoration-2 underline-offset-8 hover:underline-offset-2">
+							Breathe Deeper
+						</u>
 					</p>
 					<p className="mt-4 text-center text-balance text-secondary-content">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-						deleniti facere qui cumque, animi fuga praesentium molestias nisi,
-						beatae ducimus aliquam quae officia itaque culpa veniam possimus
-						maxime ipsa adipisci.
+						Although i am a student, i watch a shit ton of movies and my recent
+						favorite is{" "}
+						<u className="underline transition-all ease-linear decoration-primary decoration-4 hover:decoration-2 underline-offset-8 hover:underline-offset-2">
+							Zodiac
+						</u>
+						. While writing this i realized i might be a bit narcissistic the
+						way i yap so much
 					</p>
 					<div className="flex items-center justify-center mt-6">
 						<div className="grid items-center justify-center grid-cols-2 mx-auto text-center gap-x-16 gap-y-4 ">
@@ -72,7 +84,7 @@ function infographic() {
 										className="fill-slate-300"
 									/>
 								</svg>{" "}
-								- Lorem Ips
+								- hireable
 							</p>
 							<p className="flex items-center font-mono font-extrabold">
 								<svg
@@ -113,7 +125,7 @@ function infographic() {
 						offset={100}
 					>
 						<a
-							href="https://https://dev.to/whirl"
+							href="https://dev.to/whirl"
 							target="_blank"
 							rel="noreferrer"
 							className="flex items-center mx-20 mt-10 btn btn-primary"
