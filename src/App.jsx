@@ -3,7 +3,6 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Contactform from "./components/contactform";
 import Errorpage from "./components/error";
-import RedirectToGoogleDrive from "./components/pptHistory";
 import Footer from "./components/footer";
 import Headroom from "react-headroom";
 import Blog from "./components/blog";
@@ -14,8 +13,6 @@ import "animate.css/animate.compat.css";
 import "./App.css";
 
 function App() {
-	const drivelink =
-		"https://1drv.ms/p/c/749e4138a9a3feb3/ESN9iBILYJpNtPsr1paDqd8BcicQmVhn0o3dY_J5LT937w?e=Z2sfbR";
 	return (
 		<div>
 			<Router>
@@ -42,7 +39,7 @@ function App() {
 									</footer>
 								</>
 							}
-						></Route>
+						/>
 						<Route
 							path="/about"
 							element={
@@ -60,7 +57,7 @@ function App() {
 									<About />
 								</>
 							}
-						></Route>
+						/>
 						<Route
 							path="/contact"
 							element={
@@ -68,23 +65,8 @@ function App() {
 									<Navbar /> <Contactform />
 								</>
 							}
-						></Route>
-						<Route
-							path="/download"
-							element={
-								<>
-									<RedirectToGoogleDrive folderUrl={drivelink} />
-								</>
-							}
-						></Route>
-						<Route
-							path="/dl"
-							element={
-								<>
-									<RedirectToGoogleDrive folderUrl={drivelink} />
-								</>
-							}
-						></Route>
+						/>
+
 						<Route path="/blog/:blogId" element={<Blog />} />
 						<Route path="*" element={<Errorpage />} />
 					</Routes>
