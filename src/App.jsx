@@ -7,7 +7,8 @@ import Footer from "./components/footer";
 import Headroom from "react-headroom";
 import Blog from "./components/blog";
 import Infographic from "./components/infographic";
-
+import { redirects } from "./redirects";
+import RedirectTo from "./components/redirectTo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "animate.css/animate.compat.css";
 import "./App.css";
@@ -69,6 +70,13 @@ function App() {
 
 						<Route path="/blog/:blogId" element={<Blog />} />
 						<Route path="*" element={<Errorpage />} />
+						{redirects.map(({ from, to, alt }) => (
+							<Route
+								key={from}
+								path={from}
+								element={<RedirectTo folderUrl={to} pdfURL={alt} />}
+							/>
+						))}
 					</Routes>
 				</div>
 			</Router>
