@@ -530,32 +530,32 @@ const about = () => {
 						<div>
 							<AnimationOnScroll animateIn="fadeInUp" animateOnce="true">
 								<Project
-									name="Welcomer Bot"
-									href="https://github.com/whirlxd/welcomer "
-									stack="https://skillicons.dev/icons?i=js,nodejs,discordjs,discord"
-									des="Bot to welcome new members in a server"
-									image="https://socialify.git.ci/whirlxd/Welcomer/image?description=1&descriptionEditable=%20An%20open%20source%20highly%20customizable%20and%20easy%20to%20use%20welcomer%20bot.&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
+									name="Search Port"
+									href="https://github.com/whirlxd/searchport"
+									stack="https://skillicons.dev/icons?i=js,html,css,tailwind"
+									des="All search engines at your home page"
+									image="https://socialify.git.ci/whirlxd/searchport/image?description=1&font=Rokkitt&language=1&name=1&owner=1&pattern=Plus&theme=Light"
 								/>
 							</AnimationOnScroll>
 						</div>
 						<div>
 							<AnimationOnScroll animateIn="fadeInUp" animateOnce="true">
 								<Project
-									name="SpotifyDL"
-									href="https://github.com/whirlxd/SpotifyDL "
-									stack="https://skillicons.dev/icons?i=js,nodejs,windows,bash"
-									des="Convert spotify playlists to mp3 files"
-									image="https://socialify.git.ci/whirlxd/SpotifyDL/image?description=1&descriptionEditable=%20a%20simple%20nodejs%20program%20to%20convert%20spotify%20playlists%20to%20mp3%20files&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
+									name="Brainrot Shell"
+									href="https://github.com/whirlxd/brainrotshell "
+									stack="https://skillicons.dev/icons?i=py,windows,bash,shell"
+									des="Toy shell using brainrot commands"
+									image="https://socialify.git.ci/whirlxd/brainrot-shell/image?custom_description=toy+version+of+the+shell+written+in+python+to+use+brainrot+terms&description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Light"
 								/>
 							</AnimationOnScroll>
 						</div>
 						<div>
 							<AnimationOnScroll animateIn="fadeInUp" animateOnce="true">
 								<Project
-									name="Text Editor"
-									href="https://github.com/whirlxd/text-editor "
+									name="Clean Slate"
+									href="https://github.com/whirlxd/cleanslate "
 									stack="https://skillicons.dev/icons?i=react,vite,nodejs,markdown"
-									des="Simple text editor with basic features"
+									des="The ultimate foss scripwriter (W.I.P)"
 									image="https://socialify.git.ci/whirlxd/Text-Editor/image?description=1&language=1&name=1&owner=1&theme=Light"
 								/>
 							</AnimationOnScroll>

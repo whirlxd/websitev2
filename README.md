@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[whirlxd.xyz](https://whirlxd.xyz)
+[whirlxd.dev](https://whirlxd.dev)
 
 <h2>🧐 Features</h2>
 
